@@ -12,7 +12,7 @@ class Knocker(object):
         self._parse_args(args)
 
     def _parse_args(self, args: list):
-        parser = argparse.ArgumentParser(description='Simple port-knocking client written in python3. '
+        parser = argparse.ArgumentParser(description='Simple port-knocking client written in python3.\n'
                                                      'See more at https://github.com/grongor/knock')
 
         parser.add_argument('-t', '--timeout', type=int, default=200,

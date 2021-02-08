@@ -3,7 +3,7 @@ grongor/knock
 
 Simple utility for port knocking written in python3.
 
-If you find it useful but you think it lacks some functionality please let me know by creating an issue. Thank you!
+If you find it useful, but you think it lacks some functionality, please let me know by creating an issue. Thank you!
 
 Basic usage
 -----------
@@ -19,8 +19,8 @@ Options
 usage: knock [-h] [-t TIMEOUT] [-d DELAY] [-u]
              host port[:protocol] [port[:protocol] ...]
 
-Simple port-knocking client written in python3. See more at
-https://github.com/grongor/knock
+Simple port-knocking client written in python3.
+See more at https://github.com/grongor/knock
 
 positional arguments:
   host                  Hostname or IP address of the host to knock on.
