@@ -32,11 +32,12 @@ class Knocker(object):
         self.ports = args.ports
         self.verbose = args.verbose
 
-        self.address_family, _, _, _, (self.ip_address, _) = socket.getaddrinfo(
+        self.address_family, _, _, _, ip = socket.getaddrinfo(
             host=args.host,
             port=None,
             flags=socket.AI_ADDRCONFIG
         )[0]
+        self.ip_address = ip[0]
 
     def knock(self):
         last_index = len(self.ports) - 1
