@@ -13,7 +13,7 @@ class Knocker(object):
 
     def _parse_args(self, args: list):
         parser = argparse.ArgumentParser(description='Simple port-knocking client written in python3.\n'
-                                                     'See more at https://github.com/grongor/knock')
+                                                     'See more at https://github.com/oalexandre/pyknocking')
 
         parser.add_argument('-t', '--timeout', type=int, default=200,
                             help='How many milliseconds to wait on hanging connection. Default is 200 ms.')
